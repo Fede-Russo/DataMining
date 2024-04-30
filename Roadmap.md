@@ -5,6 +5,7 @@ Idee:
 - Trovare gli outliner per ogni ruolo?
 - Predire chi vincerà il titolo di MVP o comunque valutare una statistica composto per calcolarlo? (paper)
 - Analisi degli infortuni? (data merging tra i due database, analisi delle frasi per carpire gli infortuni piu' frequenti, correlazione tra eta', altezza, peso, n partire in back to back)
+- Individuare player con caratteristiche e stats simili (sia offensive che difensive)
 
 # RoadMap
 ## Data Acquisition
@@ -17,3 +18,10 @@ Ottenere i dati relativi alle statistiche regionali dei vari giocatori negli ult
 - Aggiustare i valori NULL nelle statistiche (principalmente derivanti da percentuali al tiro mancanti);
 - Rimuovere dati inutili (ad esempio il collage di provenienza);
 - Integrare i due dataset ottenuti da Basketball reference e prosportstransaction (il nome dei giocatori non corrisponde);
+
+## Data Reduction
+- Cercare di uniformare alcune statistiche?
+  
+## Data normalization
+- Normalizzazione di alcune statistiche in modo da rendeerle più facilmente comparabili?
+
