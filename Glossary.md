@@ -13,16 +13,32 @@
   - MP: Minutes Played;
   - FG: Field Goals Per Game or Per 36 Minutes;
   - FGA: Field Goal Attempts Per Game or Per 36 Minutes;
-  - FG%: Field Goal Percentage Per Game or Per 36 Minutes: $/text{FG} /over /text{FGA}$;
+  - FG%: Field Goal Percentage Per Game or Per 36 Minutes:
+  $$
+  \displaystyle 
+  \frac{FG}{FGA}
+  $$
   - 3P: 3-Point Field Goals Per Game or Per 36 Minutes;
   - 3PA: 3-Point Field Goal Attempts Per Game or Per 36 Minutes;
-  - 3P%: 3-Point Field Goal Percentage Per Game or Per 36 Minutes: $/text{3P} /over /text{3PA}$;
+  - 3P%: 3-Point Field Goal Percentage Per Game or Per 36 Minutes:  
+  $$
+  \displaystyle 
+  \frac{3P}{3PA}
+  $$
   - 2P: 2-Point Field Goals Per Game or Per 36 Minutes;
   - 2PA: 2-point Field Goal Attempts Per Game or Per 36 Minutes;
-  - 2P%: 2-Point Field Goal Percentage Per Game or Per 36 Minutes;
+  - 2P%: 2-Point Field Goal Percentage Per Game or Per 36 Minutes:
+  $$
+  \displaystyle 
+  \frac{2P}{2PA}
+  $$
   - FT: Free Throws Per Game or Per 36 Minutes;
   - FTA: Free Throw Attempts Per Game or Per 36 Minutes;
-  - FT%: Free Throw Percentage;
+  - FT%: Free Throw Percentage:
+  $$
+  \displaystyle 
+  \frac{FT}{FTA}
+  $$
   - ORB: Offensive Rebounds Per Game or Per 36 Minutes;
   - DRB: Defensive Rebounds Per Game or Per 36 Minutes;
   - TRB: Total Rebounds Per Game or Per 36 Minutes;
@@ -36,7 +52,11 @@
 - PER: Player Efficiency Rating.
   -   A measure of per-minute production standardized such that the league average is 15.
 - TS%: True Shooting Percentage.
-  - A measure of shooting efficiency that takes into account 2-point field goals, 3-point field goals, and free throws.
+  - A measure of shooting efficiency that takes into account 2-point field goals, 3-point field goals, and free throws:
+  $$
+  \displaystyle 
+  \frac{PTS}{2*TSA}
+  $$
 - 3PAr: 3-Point Attempt Rate.
   -   Percentage of FG Attempts from 3-Point Range
 - FTr: Free Throw Attempt Rate
@@ -56,7 +76,11 @@
 - TOV%: Turnover Percentage
   -   An estimate of turnovers committed per 100 plays.
 - USG%: Usage Percentage
-  -   An estimate of the percentage of team plays used by a player while they were on the floor.
+  -   An estimate of the percentage of team plays used by a player while they were on the floor:
+  $$
+  \displaystyle
+  100 * ((FGA + 0.44 * FTA + TOV) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV))
+  $$
 - OWS: Offensive Win Shares
   -   An estimate of the number of wins contributed by a player due to offense.
 - DWS: Defensive Win Shares
