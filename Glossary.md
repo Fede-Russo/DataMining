@@ -1,4 +1,4 @@
-# NBA Stats Gloassary
+# NBA Stats Glossary
 
 ## Basic Player Info
 
