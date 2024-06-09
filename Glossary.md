@@ -5,9 +5,18 @@
 - Season: If listed as single number, the year the season ended;
 - Age: Player's age on February 1 of the season;
 - Pos: Position;
+- Height: Player's Height in US Metric system;
+- Weight: Player's weight in US Metric System;
+- Height_CM: Player's Height in International Metric System;
+- Weight_KG: Player's Wheight in International Metric System;
+- Nationality;
+- College: name of the US college where the players played (if exists);
+- BIRTH_DATE;
+- EXPERIENCE: Number of years that the player has already played in the NBA;
+- NUMBER: number that the player has on his shirt;
+- TEAM: name of the team where the player plays;
 
 ## Basic Player Stats
-
   - G: Games;
   - GS: Games Started;
   - MP: Minutes Played;
@@ -97,3 +106,17 @@
   -   A box score estimate of the points per 100 possessions a player contributed above a league-average player, translated to an average team.
 - VORP: Value over Replacement Player
   -   A box score estimate of the points per 100 TEAM possessions that a player contributed above a replacement-level (-2.0) player, translated to an average team and prorated to an 82-game season.
+ 
+## Tracking Touches Statistics:
+- TOUCHES: Touches
+- Front CT:Touches Front Court Touches
+- Time Of Poss: Time Of Possession
+- Avg Sec Per Touch: Average Seconds Per Touch
+- Avg Drib Per Touch: Average Dribbles Per Touch
+- PTS Per Touch: Points Per Touch
+- Elbow Touches: Elbow Touches
+- Post Ups: Post Touches
+- Paint Touches: Paint Touches
+- PTS Per Elbow Touch: Points Per Elbow Touch
+- PTS Per Post Touch: Points Per Post Touch
+- PTS Per Paint Touch: Points Per Paint Touch  
