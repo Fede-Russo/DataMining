@@ -43,3 +43,10 @@ def insert_team_games(data):
         print("Data inserted successfully")
     except Exception as e:
         print("Error:", e)
+        
+def get_player_name():
+    try:
+        list = pd.read_sql(sql = 'SELECT DISTINCT PLAYER FROM team_roster;', con = conn)
+        return list
+    except Exception as e:
+        print("Error:", e)
